@@ -1,0 +1,1 @@
+javascript:(function(){let%20s=document.createElement('script');s.src='https://Ching367436.github.io/js/j/main.js';document.head.appendChild(s);})();

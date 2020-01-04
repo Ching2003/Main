@@ -1,0 +1,21 @@
+#a {
+    float: left;
+    font-size: 13vw;
+}
+#main input {
+    font-size: 5vw;
+}
+#answer {
+    font-size: 10vw !important;
+    width: 35vw;
+}
+
+#menu {
+    display: none;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

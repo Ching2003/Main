@@ -1,0 +1,19 @@
+#myCanvas {
+	width: 750px;
+	height: 750px;
+}
+#show {
+	float: right;
+	width: 550px;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
+	
+}
+nav img {
+	width: 3vw;
+}

@@ -1,0 +1,44 @@
+#name {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    user-select: none;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
+	
+}
+nav img {
+	width: 3vw;
+}
+#re {
+    float: right;
+    width: 450px;
+}
+.container {
+    height: 530px;
+    width: 530px;
+    font-size: 150px;
+    text-align: center;
+}
+.box {
+    height: 170px;
+    width: 170px;
+    float: left;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    #re {
+        width: 100%;
+    }
+}

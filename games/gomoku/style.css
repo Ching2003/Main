@@ -1,0 +1,14 @@
+#message {
+    text-align: center;
+    font-size: 2.1vw;
+    margin: 0.2vw;
+}
+#c {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaad00;
+    display: block;
+}
+botton {
+    margin: 0 auto;
+}
