@@ -172,9 +172,7 @@ function gameOver (b, w) {
     }
     message.innerHTML += `Black: ${b} White: ${w}`;
     if (b === 13 && w === 0) {
-        if (confirm("You did a great job!!")) {
-            location.href = "https://drive.google.com/drive/mobile/folders/11ZIY8WV1GeFeJ5MHpaOkMGaozl3xxHtk";
-        }
+        document.querySelector('#name').href = "./encrypted.html";
     }
 }
 
