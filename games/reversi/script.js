@@ -1,3 +1,4 @@
+'use strict';
 const board = document.getElementById('chess-board');
 const message = document.getElementById('message');
 var turn = 1,
