@@ -1,5 +1,6 @@
 const $chessboard = document.getElementById('chess-board');
 const $messageBar = document.getElementById('message');
+const $pass = document.querySelector('#pass');
 
 // 1. black     2. white
 let turn = 1;
@@ -148,6 +149,10 @@ function move(x, y, player = turn) {
 }
 
 function checkSpotAvalible(x, y, player = turn, board = board) {
+    // check if is empty
+    if (board[x][y]) {
+        return false;
+    }
 
     let opponent = getOpponent(player);
 
@@ -227,6 +232,10 @@ function changeTurn() {
     if (checkPass(opponent, board)) {
         if (checkPass(turn, board)) {
             endGame();
+        } else {
+            $pass.style.display = "block";
+            setTimeout(() => { $pass.style.display = "none"; }, 1000)
+            console.log("pass: ", turn)
         }
     } else {
         turn = opponent;
